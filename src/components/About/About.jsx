@@ -4,7 +4,7 @@ import Particle from "../ParticleComponent";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/aboutpage.png";
+import laptopImg from "../../assets/aboutpage.png";
 import Toolstack from "./Toolstack";
 import useDocumentTitle from "../Hooks/useDocumentTitle";
 
