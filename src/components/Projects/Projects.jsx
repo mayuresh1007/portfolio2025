@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../ParticleComponent";
-import ak from "../../Assets/Projects/ak.png";
-import chatbot from "../../Assets/Projects/chatbot.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import news from "../../Assets/Projects/news.png";
-import todo from "../../Assets/Projects/todo.png";
-import ecom from "../../Assets/Projects/ecom.png";
+import ak from "../../assets/Projects/ak.png";
+import chatbot from "../../assets/Projects/chatbot.png";
+import portfolio from "../../assets/Projects/portfolio.png";
+import news from "../../assets/Projects/news.png";
+import todo from "../../assets/Projects/todo.png";
+import ecom from "../../assets/Projects/ecom.png";
 import useDocumentTitle from "../Hooks/useDocumentTitle";
 
 function Projects() {
