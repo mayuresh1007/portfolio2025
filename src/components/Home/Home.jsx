@@ -151,10 +151,10 @@
 // export default Home;
 
 import React from "react";
-import homeLogo from "../../Assets/home-main-bg1.png";
+import homeLogo from "../../assets/home-main-bg1.png";
 import ParticleComponent from "../ParticleComponent";
 import Type from "./Type";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../assets/avatar.svg";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
