@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.jpg";
+import logo from "../assets/Projects/logo.jpg";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
