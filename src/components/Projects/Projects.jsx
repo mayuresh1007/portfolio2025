@@ -9,6 +9,7 @@ import news from "../../assets/Projects/news.png";
 import todo from "../../assets/Projects/todo.png";
 import ecom from "../../assets/Projects/ecom.png";
 import useDocumentTitle from "../Hooks/useDocumentTitle";
+import { Countup } from "./Countup";
 
 function Projects() {
   useDocumentTitle("Projects | Mayuresh");
@@ -22,6 +23,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
         </p>
+        <Countup/>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -101,6 +103,7 @@ function Projects() {
           
         </Row>
       </Container>
+      
     </Container>
   );
 }

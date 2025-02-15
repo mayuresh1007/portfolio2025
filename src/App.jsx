@@ -1,7 +1,7 @@
 
 
 import React, { useState, useEffect, useRef } from "react";
-import { HashRouter as Router, Route, Routes, Navigate } from "react-router";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Preloader from "./components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";

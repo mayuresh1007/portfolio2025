@@ -21,7 +21,7 @@ button:focus {
 /* --------- */
 /*  Preloader */
 /* --------- */
-#preloader {
+.preloader {
   position: fixed;
   top: 0;
   left: 0;
@@ -34,11 +34,11 @@ button:focus {
   background-position: center;
 }
 
-#preloader-none {
+.preloader-none {
   opacity: 0;
 }
 
-#no-scroll {
+.no-scroll {
   overflow: hidden;
   height: 100vh;
 }
@@ -257,7 +257,7 @@ button:focus {
 }
 
 .home-header {
-  padding-top: 80px !important;
+  padding-top: 5rem !important;
 }
 
 .home-section {
@@ -272,7 +272,7 @@ button:focus {
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
+  padding: 2rem 0 3rem !important;
   color: whitesmoke;
   text-align: left;
 }
@@ -462,7 +462,7 @@ button:focus {
 /* --------- */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -561,12 +561,27 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 3rem !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
 
+.countup {
+  color: #c0ab88;
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid #ff8c00 !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 8px !important;
+  /* display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(168, 72, 4, 0.137) !important; 
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important; */
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
