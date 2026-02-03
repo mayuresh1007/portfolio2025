@@ -10,12 +10,13 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hello everyone! I'm <span className="purple">Mayuresh</span> from
             <span className="purple"> Sangli, India</span> with
-            <span className="purple"> 3.5+ years of experience</span> in
+            <span className="purple"> 4+ years of experience</span> in
             software development.
             <br />
             Currently, I work as a software developer at
-            <span className="purple"> Datartinfotech</span>, and previously, I
+            <span className="purple"> samkhya.ai</span> (since May 2025), and previously, I
             contributed my skills at{" "}
+            <span className="purple"> Datartinfotech</span> and{" "}
             <span className="purple"> FirstCry.com</span>. I’m deeply passionate
             about technology, continuously learning new skills, and applying
             them to solve real-world problems.
